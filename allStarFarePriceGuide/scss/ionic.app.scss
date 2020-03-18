@@ -1,0 +1,92 @@
+$positive: #8FFC67;
+$calm: #24C50E;
+$balanced: #00FF48;
+$energized: #8FFF00;
+$royal: #65FF63;
+$link-color: $calm;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss/ionic.scss";
+a {
+	color: #09f403 !important;
+	background-color: #000000 !important;
+}
+
+button {
+	background-color: #000000 !important;
+	color: #09f403 !important;
+	border: #09f403 2px solid !important;
+	font-size: .8em;
+}
+
+.button {
+	background-color: #09f403 !important;
+	color: #000000 !important;
+	border: #ffffff 2px solid !important;
+	font-size: .8em;
+}
+
+.buttoon {
+	background-color: #000000 !important;
+	color: #09f403 !important;
+	border: #09f403 2px solid !important;
+	font-size: 1.1em !important;
+}
+
+.button:active, .button:focus, .buttoon:active, .buttoon:focus {
+	background-color: #09f403 !important;
+	color: #000000 !important;
+}
+
+.fare-list-item {
+	background-color: #000000 !important;
+	color: #09f403 !important;
+	border: #09f403 2px solid !important;
+	font-weight: 600 !important;
+	font-size: 0.9em !important;
+}
+
+.visited {
+	background-color: #000000 !important;
+	color: #ffffff !important;
+	border: #09f403 2px solid !important;
+	font-weight: 600 !important;
+	font-size: 1em !important;
+}
+
+li {
+	background-color: #000000 !important;
+}
+
+.border {
+	border: #09f403 2px solid !important;
+}
+
+@media only screen and (max-width: 600px) {
+	.max-fifty-fivhundo {
+		width: 90% !important;
+		margin: 0 auto;
+		max-width: 500px !important;
+	}
+	
+}
+@media only screen and (min-width: 601px) {
+	.max-fifty-fivhundo {
+		width: 50% !important;
+		max-width: 500px !important;
+		margin: 0 auto
+	}
+	
+}
+.transparent {
+	background-color: transparent !important;
+}
+
+ion-view,.pane,.view {
+	background-color: #000;
+}
+
+body, .ion-body {
+	color: #09f403;
+	background-color: #000;
+}
+
